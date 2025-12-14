@@ -45,7 +45,7 @@ The script produces a plot showing:
 
 ### Example Result
 
-![Kalman Filter Output](figure.png)
+![Kalman Filter Output](Kalmanpic.png)
 
 > *Note:* Replace `figure.png` with the actual image file name stored in the repository.
 
