@@ -54,7 +54,7 @@ def main():
         predictions.append(kf.predict()[0])
         kf.update(z.item(0))
     fig = plt.figure()
-    fig.suptitle('Example of Kalman filter for tracking a moving object in 1-D', fontsize=20)
+    fig.suptitle('Example of Kalman filter for tracking a moving object in 1-D', fontsize=8)
     plt.plot(t, measurements, label='Measurements', color='b',linewidth=0.5)
     plt.plot(t, np.array(real_track), label='Real Track', color='y', linewidth=1.5)
     plt.plot(t, np.squeeze(predictions), label='Kalman Filter Prediction', color='r', linewidth=1.5)
